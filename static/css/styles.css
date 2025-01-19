@@ -1,0 +1,117 @@
+/* General Body Styling */
+body {
+    background-color: #E9F5FB;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #1F4E79;
+    padding: 1rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #A1D6F1;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #1F4E79;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* Input Fields and Dropdowns */
+input[type="datetime-local"], select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: 1px solid #CED4DA;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #F4F9FD;
+    transition: border-color 0.3s ease;
+}
+
+input[type="datetime-local"]:focus, select:focus {
+    border-color: #1F4E79;
+    outline: none;
+}
+
+/* Buttons */
+.btn-secondary {
+    background-color: #1F4E79;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #16405C;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading Style */
+h3 {
+    color: #1F4E79;
+    font-weight: 500;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+/* Links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #A1D6F1;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .card-body {
+        text-align: left;
+    }
+}
